@@ -1,0 +1,32 @@
+Name : Liang Zhang
+login: zhan1997
+
+Part #1:
+Output I obtained in step 3: the characters 'A, B, C' was printed continuously in a random order (no particular order was obtained).
+
+In step 5:
+Output: only 'C' was printed and 'C' was printed forever.
+Explaination: because the program will first execute the main thread and since the function in main thread is
+an infite loop, it won't exit to call the pthread_create function. Since no pthread_create function was called, there is only 
+one main thread in the whole project. SO, it will only print character 'C' forever.
+
+Part #3:
+	                                             System(Kernel)Time         User Time      Real Time
+pthread_mutex (count) 	  	  	                   0m0.830s             0m1.240s       0m1.323s
+spin lock (count_spin with thr_yield) 	  	  	   0m0.232s             0m0.512s       0m0.409s
+spin_lock (count_spin without thr_yield)                   0m0.000s             0m1.810s       0m0.982s
+
+1.Explain the differences  in user time between count_spin with and without thr_yield:
+  Count_spin with thr_yield spend much less user time than count_spin without thr_yield.
+  Reason: The method thr_yield() in count_spin will allow the thread to give up the CPU when it is locked by spin_lock. So, this makes the unlocked running thread runs and ends faster 
+  In contrast, without method thr_yield(), the locked thread won't give up CPU and just waiting, which wastes the time. Hence, count_spin with thr_yield spends much less user time
+  than count_spin without thr_yield.  
+
+2. Explain the difference in system time between count and count_spin with thr_yield:
+   Count spends much more system time than count_spin with thr_yield.
+   Reason: if using mutex lock, plenty of time will be used in system time when the CPU is locking and unlocking the content between mutex_lock() and mutex_unlock().
+   In contrast, the spin lock with yields doesn't spend much system time on it becuase the spin lock with thr_yield does it in user mode.
+
+
+
+

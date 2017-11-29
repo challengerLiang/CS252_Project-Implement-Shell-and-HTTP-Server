@@ -1,0 +1,2762 @@
+[master (root-commit) 48e4635] Commit Web Server
+ 5 files changed, 389 insertions(+)
+ create mode 100755 daytime-client.cc
+ create mode 100644 daytime-server.cc
+ create mode 100755 hello.cc
+ create mode 100755 http-root-dir/cgi-src/util.h
+ create mode 100755 use-dlopen.cc
+[master (root-commit) dbe6c81] Commit Web Server
+ 5 files changed, 389 insertions(+)
+ create mode 100755 daytime-client.cc
+ create mode 100644 daytime-server.cc
+ create mode 100755 hello.cc
+ create mode 100755 http-root-dir/cgi-src/util.h
+ create mode 100755 use-dlopen.cc
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	Makefile
+	daytime-client
+	daytime-client.o
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/cgi-bin/
+	http-root-dir/cgi-src/Makefile
+	http-root-dir/cgi-src/change-passwd.c
+	http-root-dir/cgi-src/imagemap.c
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.c
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.c
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/cgi-src/post-query.c
+	http-root-dir/cgi-src/post-query.o
+	http-root-dir/cgi-src/query.c
+	http-root-dir/cgi-src/query.o
+	http-root-dir/cgi-src/util.c
+	http-root-dir/cgi-src/util.o
+	http-root-dir/htdocs/
+	http-root-dir/icons/
+	myhttpd
+	myhttpd.cpp
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present
+[master eab4dc7] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod4-1.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 103 files changed, 3121 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100755 Makefile
+ create mode 100755 daytime-client
+ create mode 100644 daytime-client.o
+ create mode 100755 daytime-server
+ create mode 100644 daytime-server.o
+ create mode 100644 hello.o
+ create mode 100755 hello.so
+ create mode 100755 http-root-dir/cgi-bin/archie
+ create mode 100755 http-root-dir/cgi-bin/calendar
+ create mode 100755 http-root-dir/cgi-bin/date
+ create mode 100755 http-root-dir/cgi-bin/donothing
+ create mode 100755 http-root-dir/cgi-bin/finger
+ create mode 100755 http-root-dir/cgi-bin/fortune
+ create mode 100755 http-root-dir/cgi-bin/imagemap
+ create mode 100755 http-root-dir/cgi-bin/jj
+ create mode 100755 http-root-dir/cgi-bin/mail
+ create mode 100755 http-root-dir/cgi-bin/nph-error.pl
+ create mode 100755 http-root-dir/cgi-bin/nph-test-cgi
+ create mode 100755 http-root-dir/cgi-bin/phf
+ create mode 100755 http-root-dir/cgi-bin/post-query
+ create mode 100755 http-root-dir/cgi-bin/query
+ create mode 100755 http-root-dir/cgi-bin/redirect
+ create mode 100755 http-root-dir/cgi-bin/test-cgi
+ create mode 100755 http-root-dir/cgi-bin/test-cgi.tcl
+ create mode 100755 http-root-dir/cgi-bin/test-env
+ create mode 100755 http-root-dir/cgi-bin/uptime
+ create mode 100755 http-root-dir/cgi-bin/wais.pl
+ create mode 100755 http-root-dir/cgi-src/Makefile
+ create mode 100755 http-root-dir/cgi-src/change-passwd.c
+ create mode 100755 http-root-dir/cgi-src/imagemap.c
+ create mode 100755 http-root-dir/cgi-src/imagemap.o
+ create mode 100755 http-root-dir/cgi-src/jj.c
+ create mode 100755 http-root-dir/cgi-src/jj.o
+ create mode 100755 http-root-dir/cgi-src/phf.c
+ create mode 100755 http-root-dir/cgi-src/phf.o
+ create mode 100755 http-root-dir/cgi-src/post-query.c
+ create mode 100755 http-root-dir/cgi-src/post-query.o
+ create mode 100755 http-root-dir/cgi-src/query.c
+ create mode 100755 http-root-dir/cgi-src/query.o
+ create mode 100755 http-root-dir/cgi-src/util.c
+ create mode 100755 http-root-dir/cgi-src/util.o
+ create mode 100755 http-root-dir/htdocs/baggage.gif
+ create mode 100755 http-root-dir/htdocs/chat.gif
+ create mode 100755 http-root-dir/htdocs/complex.html
+ create mode 100755 http-root-dir/htdocs/cont-online.gif
+ create mode 100755 http-root-dir/htdocs/cont.gif
+ create mode 100755 http-root-dir/htdocs/cs.gif
+ create mode 100755 http-root-dir/htdocs/dir1/a
+ create mode 100755 http-root-dir/htdocs/dir1/b
+ create mode 100755 http-root-dir/htdocs/dir1/c
+ create mode 100755 http-root-dir/htdocs/dir1/chat.gif
+ create mode 100755 http-root-dir/htdocs/dir1/d
+ create mode 100755 http-root-dir/htdocs/dir1/subdir1/a
+ create mode 100755 http-root-dir/htdocs/dir1/subdir1/b
+ create mode 100755 http-root-dir/htdocs/dir1/subdir1/c
+ create mode 100755 http-root-dir/htdocs/dir1/subdir1/d
+ create mode 100755 http-root-dir/htdocs/earth.gif
+ create mode 100755 http-root-dir/htdocs/eye.gif
+ create mode 100755 http-root-dir/htdocs/fly-cheap.gif
+ create mode 100755 http-root-dir/htdocs/gc.gif
+ create mode 100755 http-root-dir/htdocs/hotel.gif
+ create mode 100755 http-root-dir/htdocs/index.html
+ create mode 100755 http-root-dir/htdocs/pictures.gif
+ create mode 100755 http-root-dir/htdocs/plane.gif
+ create mode 100755 http-root-dir/htdocs/rec.gif
+ create mode 100755 http-root-dir/htdocs/seat.gif
+ create mode 100755 http-root-dir/htdocs/simple.html
+ create mode 100755 http-root-dir/htdocs/suitcase.gif
+ create mode 100755 http-root-dir/htdocs/yahoo-travel.gif
+ create mode 100755 http-root-dir/htdocs/yahoo.gif
+ create mode 100755 http-root-dir/icons/back.xbm
+ create mode 100755 http-root-dir/icons/ball.gif
+ create mode 100755 http-root-dir/icons/ball.xbm
+ create mode 100755 http-root-dir/icons/binary.gif
+ create mode 100755 http-root-dir/icons/binary.xbm
+ create mode 100755 http-root-dir/icons/blank.xbm
+ create mode 100755 http-root-dir/icons/blue_ball.gif
+ create mode 100755 http-root-dir/icons/ftp.gif
+ create mode 100755 http-root-dir/icons/ftp.xbm
+ create mode 100755 http-root-dir/icons/green_ball.gif
+ create mode 100755 http-root-dir/icons/image.gif
+ create mode 100755 http-root-dir/icons/image.xbm
+ create mode 100755 http-root-dir/icons/index.gif
+ create mode 100755 http-root-dir/icons/index.xbm
+ create mode 100755 http-root-dir/icons/menu.gif
+ create mode 100755 http-root-dir/icons/menu.xbm
+ create mode 100755 http-root-dir/icons/movie.gif
+ create mode 100755 http-root-dir/icons/movie.xbm
+ create mode 100755 http-root-dir/icons/red_ball.gif
+ create mode 100755 http-root-dir/icons/sound.gif
+ create mode 100755 http-root-dir/icons/sound.xbm
+ create mode 100755 http-root-dir/icons/telnet.gif
+ create mode 100755 http-root-dir/icons/telnet.xbm
+ create mode 100755 http-root-dir/icons/text.gif
+ create mode 100755 http-root-dir/icons/text.xbm
+ create mode 100755 http-root-dir/icons/unknown.gif
+ create mode 100755 http-root-dir/icons/unknown.xbm
+ create mode 100755 myhttpd
+ create mode 100644 myhttpd.cpp
+ create mode 100644 myhttpd.o
+ create mode 100755 use-dlopen
+ create mode 100644 use-dlopen.o
+[master 40bd138] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod4-1.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 118 insertions(+)
+[master 777faeb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod4-1.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 1 deletion(-)
+ rewrite myhttpd (88%)
+ rewrite myhttpd.o (86%)
+[master 8b9d224] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod4-1.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 18 insertions(+), 1 deletion(-)
+ rewrite myhttpd.o (79%)
+[master 0fb8d0b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+)
+[master 35d6394] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 1 deletion(-)
+ rewrite myhttpd (62%)
+ rewrite myhttpd.o (98%)
+[master 90f1d6f] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 47 insertions(+), 6 deletions(-)
+ rewrite myhttpd (65%)
+[master 2b8e5ce] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 23 insertions(+), 6 deletions(-)
+[master a1e1c3f] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 148a1cd] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 45 insertions(+), 15 deletions(-)
+ rewrite myhttpd (62%)
+[master 84071cb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 18 insertions(+), 2 deletions(-)
+[master 900c754] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 34 insertions(+), 4 deletions(-)
+ rewrite myhttpd (73%)
+ rewrite myhttpd.o (63%)
+[master 45c233a] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 27 insertions(+), 1 deletion(-)
+ rewrite myhttpd (66%)
+[master 188a0d8] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 25 insertions(+)
+ rewrite myhttpd (67%)
+[master 1073fa1] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 22 insertions(+), 1 deletion(-)
+ rewrite myhttpd (61%)
+[master 6a60aaf] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 18 insertions(+), 1 deletion(-)
+[master fc6d126] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 18 insertions(+)
+[master ca40bf8] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 24 insertions(+), 3 deletions(-)
+ rewrite myhttpd (66%)
+[master f4c6d7e] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+)
+[master 635a35a] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 44 insertions(+)
+ rewrite myhttpd (81%)
+[master 5b9768c] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 32 insertions(+), 1 deletion(-)
+ rewrite myhttpd (86%)
+[master 6b51ef7] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+[master e98fd0f] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 23 insertions(+), 3 deletions(-)
+[master 5b0565b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 27 insertions(+), 2 deletions(-)
+[master 00aec45] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 1 deletion(-)
+[master 78843c4] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 20 insertions(+)
+ rewrite myhttpd (91%)
+ rewrite myhttpd.o (69%)
+[master 57137b2] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 18 insertions(+), 1 deletion(-)
+[master 07d4f8b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 15 insertions(+), 5 deletions(-)
+ rewrite myhttpd (93%)
+ rewrite myhttpd.o (69%)
+[master 608d986] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 85 insertions(+), 67 deletions(-)
+[master 9a717dd] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 1ab02d1] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 18 insertions(+)
+[master d31cbc9] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+ rewrite myhttpd.o (82%)
+[master 3c34a7a] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+)
+ rewrite myhttpd (87%)
+ rewrite myhttpd.o (79%)
+[master e3fd9c7] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+[master 2fc174f] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 2819294] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 20f7511] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 20 insertions(+), 2 deletions(-)
+ rewrite myhttpd.o (69%)
+[master 481764a] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+)
+[master fedddc6] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 1e87687] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+)
+[master 546bf88] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+[master 104e51e] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master cea11af] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+[master 4861eeb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+)
+[master 6948a2f] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 1 deletion(-)
+ rewrite myhttpd (60%)
+ rewrite myhttpd.o (67%)
+[master c94b1ec] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 31 insertions(+), 7 deletions(-)
+ rewrite myhttpd.o (67%)
+[master 7edbeed] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+)
+[master 9648e8d] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 5f5b1a7] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 417ad27] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 1deb681] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+[master 194c11a] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+[master 22f9ce0] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master a622b27] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 4ecddf5] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 33 insertions(+), 7 deletions(-)
+[master 25f626f] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 23 insertions(+)
+[master d1dc036] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 9da9b01] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 36 insertions(+)
+ rewrite myhttpd.o (63%)
+[master 71f69ce] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 23 insertions(+), 3 deletions(-)
+[master 968a047] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 5 deletions(-)
+[master cb15ea0] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 20 insertions(+)
+[master 3282499] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 19ce7ee] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 24 insertions(+), 1 deletion(-)
+ rewrite myhttpd (61%)
+[master 380faf0] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 20 insertions(+)
+[master 4737e18] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master c16e7e1] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 16 insertions(+)
+[master 7100ae8] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 041df68] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 1ed7ef7] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 24 insertions(+)
+ rewrite myhttpd (62%)
+ rewrite myhttpd.o (62%)
+[master f23bb73] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 25 insertions(+), 1 deletion(-)
+[master 265e9ae] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 17 insertions(+), 2 deletions(-)
+ rewrite myhttpd (69%)
+ rewrite myhttpd.o (64%)
+[master 23a47a3] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+[master de55311] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+[master c0eecd3] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 39 insertions(+)
+ rewrite myhttpd (70%)
+ rewrite myhttpd.o (66%)
+[master df39a1a] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 34 insertions(+), 1 deletion(-)
+[master 93f12e2] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 7ca8a3d] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 27 insertions(+), 5 deletions(-)
+ rewrite myhttpd (69%)
+[master 6b497d6] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 23 insertions(+), 1 deletion(-)
+ rewrite myhttpd (71%)
+[master cb7e3d1] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 21 insertions(+), 2 deletions(-)
+ rewrite myhttpd (72%)
+ rewrite myhttpd.o (70%)
+[master 1975002] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 27 insertions(+), 1 deletion(-)
+ rewrite myhttpd (72%)
+ rewrite myhttpd.o (70%)
+[master b7e35b8] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 21 insertions(+)
+[master 4ec2829] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 27 insertions(+), 2 deletions(-)
+ rewrite myhttpd (71%)
+ rewrite myhttpd.o (68%)
+[master bb0d86d] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+[master f7ba06e] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 16 insertions(+)
+[master 775a9b5] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 15 insertions(+), 1 deletion(-)
+[master d8ca485] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 870e517] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 63 insertions(+), 47 deletions(-)
+[master 771547c] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+)
+[master 8eed524] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 4ff97b5] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 18 insertions(+), 3 deletions(-)
+[master da362ea] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 4f0b171] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 5 deletions(-)
+ rewrite myhttpd (76%)
+ rewrite myhttpd.o (60%)
+[master 3c9cb85] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 21 insertions(+), 1 deletion(-)
+[master 42c1df1] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+[master 84f96dd] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 5b141ee] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+[master ace14b7] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master e616112] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master a790528] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 2 deletions(-)
+[master 1f891dd] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 20 insertions(+), 6 deletions(-)
+ rewrite myhttpd (72%)
+[master 6e704e0] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 18 insertions(+), 2 deletions(-)
+[master 9ccdba4] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 1 deletion(-)
+[master e30ed7d] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 18 insertions(+), 2 deletions(-)
+[master 3bd86cb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+)
+[master c70b95b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 18 insertions(+)
+ rewrite myhttpd (74%)
+ rewrite myhttpd.o (69%)
+[master 3506fea] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 37 insertions(+), 20 deletions(-)
+[master f377751] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 4353dff] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 5 deletions(-)
+[master dc5993b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master a1bda21] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 1 deletion(-)
+[master 7b993d8] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 56b81f8] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 106a408] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+)
+ rewrite myhttpd (73%)
+ rewrite myhttpd.o (69%)
+[master 6e7b5d6] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+[master 461600b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 15 insertions(+), 1 deletion(-)
+ rewrite myhttpd (73%)
+ rewrite myhttpd.o (69%)
+[master 914b06d] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 17 insertions(+)
+[master 30a514b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+ rewrite myhttpd (71%)
+ rewrite myhttpd.o (68%)
+[master fdd8159] Commit Web Server
+ Committer: Liang Zhang <zhan1997@pod3-2.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 2 deletions(-)
+ rewrite myhttpd (71%)
+ rewrite myhttpd.o (68%)
+[master 567e247] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 35 insertions(+), 16 deletions(-)
+[master 3882441] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 2 deletions(-)
+[master 0355556] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 07dce0c] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 21 insertions(+), 7 deletions(-)
+ rewrite myhttpd.o (77%)
+[master 84cb1cb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 20 insertions(+), 4 deletions(-)
+ rewrite myhttpd (72%)
+[master 741741c] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 22 insertions(+), 2 deletions(-)
+[master 3fb4edb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+)
+[master fb9d1ce] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+[master 1b1ec10] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+[master ca9b50c] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master 2b2dff1] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 811df5e] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 0cfa95c] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 23 insertions(+), 7 deletions(-)
+ rewrite myhttpd.o (67%)
+[master 6bdfef3] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+)
+[master 13d7cf4] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 28154fb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 16 insertions(+), 1 deletion(-)
+[master b1f778c] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master e47a824] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master f84e1fb] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master efcb581] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 19 insertions(+), 5 deletions(-)
+[master 366372b] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master d37fed4] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master a12a82d] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 8fab45f] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+[master 70a6213] Commit Web Server
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)

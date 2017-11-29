@@ -1,0 +1,27 @@
+total 428
+drwxr-S--- 4 zhan1997 zhan1997  4096 Feb 26 02:15 .
+drwxr-s--- 7 zhan1997 zhan1997  4096 Feb 20 21:33 ..
+drwxr-s--- 7 zhan1997 zhan1997  4096 Feb 26 02:13 .git
+-rw-r----- 1 zhan1997 zhan1997    15 Feb 12 06:40 .hello
+-rw-r----- 1 zhan1997 zhan1997 45962 Feb 26 02:13 .local.git.out
+-rw-r----- 1 zhan1997 zhan1997     0 Feb 26 02:14 2
+-rwxr-x--- 1 zhan1997 zhan1997   758 Feb 15 22:15 Makefile
+-rwxr-x--- 1 zhan1997 zhan1997 20816 Feb 26 00:37 cat_grep
+-rwxr-x--- 1 zhan1997 zhan1997  2927 Feb 12 06:40 cat_grep.cc
+-rwxr-x--- 1 zhan1997 zhan1997  5342 Feb 26  2016 command.cc
+-rwxr-x--- 1 zhan1997 zhan1997   792 Feb 21 11:19 command.h
+-rw-r----- 1 zhan1997 zhan1997 26440 Feb 26 02:13 command.o
+-rwxr-x--- 1 zhan1997 zhan1997 12408 Feb 26 00:37 ctrl-c
+-rwxr-x--- 1 zhan1997 zhan1997   642 Feb 12 06:40 ctrl-c.cc
+-rw-r----- 1 zhan1997 zhan1997 45153 Feb 26 00:32 lex.yy.c
+-rw-r----- 1 zhan1997 zhan1997 43480 Feb 26 00:32 lex.yy.o
+-rw-r----- 1 zhan1997 zhan1997     0 Feb 26 02:15 out
+-rwxr-x--- 1 zhan1997 zhan1997 15736 Feb 26 00:37 regular
+-rwxr-x--- 1 zhan1997 zhan1997  1747 Feb 12 06:40 regular.cc
+-rwxr-x--- 1 zhan1997 zhan1997 62128 Feb 26 02:13 shell
+-rwxr-x--- 1 zhan1997 zhan1997   709 Feb 25 23:27 shell.l
+-rwxr-x--- 1 zhan1997 zhan1997  2898 Feb 25 23:28 shell.y
+drwxr-s--- 3 zhan1997 zhan1997  4096 Feb 26 00:45 test-shell
+-rw-r----- 1 zhan1997 zhan1997 50325 Feb 26 00:32 y.tab.c
+-rw-r----- 1 zhan1997 zhan1997  3029 Feb 26 00:32 y.tab.h
+-rw-r----- 1 zhan1997 zhan1997 24392 Feb 26 00:32 y.tab.o

@@ -1,0 +1,2323 @@
+[master (root-commit) 17ada99] 5 of 90
+ 14 files changed, 716 insertions(+)
+ create mode 100644 MyMalloc.c
+ create mode 100644 MyMalloc.h
+ create mode 100644 test0.c
+ create mode 100644 test1-1.c
+ create mode 100644 test1-2.c
+ create mode 100644 test1-3.c
+ create mode 100644 test1-4.c
+ create mode 100644 test1.c
+ create mode 100644 test2.c
+ create mode 100644 test3.c
+ create mode 100644 test4.c
+ create mode 100644 test5.c
+ create mode 100644 test6.c
+ create mode 100644 test7.c
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 6f32700] 5 of 90
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+[master 9c55c33] 5 of 100
+ 1 file changed, 2 insertions(+)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 486414d] 30 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 68 insertions(+), 5 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 9dfa7a5] 30 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 3e1e0a5] 30 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 1c0686a] 30 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 insertions(+), 16 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 0f5c03d] 40 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 77 insertions(+), 6 deletions(-)
+[master 1498551] 40 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 93bacd7] 40 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 8ab7c52] 80 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 2aa8729] 80 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+[master 8d33bba] 70 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 8 deletions(-)
+[master 188a3c6] 70 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 1144e4e] 80 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+), 6 deletions(-)
+[master fe3a842] 70 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 10 deletions(-)
+[master 659db1b] 80 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 889ceeb] 90 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master b2cf355] 100 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+)
+[master 1ec201e] 100 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 541 insertions(+), 516 deletions(-)
+ rewrite MyMalloc.c (68%)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 5c565cc] 100 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 16 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 8da5d04] 100 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+[master 70347c2] 100 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+[master 60ec44b] 100 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+[master 2ea62c4] 100 of 100
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	.local.total.out
+	Makefile
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	none
+	test0
+	test0.org
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org
+	test1-4.org.out
+	test1-4.out
+	test1.org
+	test2
+	test2.org
+	test2.org.out
+	test2.out
+	test3
+	test3.org
+	test3.org.out
+	test3.out
+	test4
+	test4.org
+	test4.org.out
+	test4.out
+	test5
+	test5.org
+	test5.org.out
+	test5.out
+	test6
+	test6.org
+	test6.org.out
+	test6.out
+	test7
+	test7.org
+	test7.org.out
+	test7.out
+	testall
+	total.out
+	total.txt
+
+nothing added to commit but untracked files present

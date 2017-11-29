@@ -1,0 +1,36 @@
+myshell>   Yacc: insert command "ls"
+   Yacc: insert argument "test3*"
+   Yacc: insert output "file-list"
+   Yacc: Execute command
+
+
+              COMMAND TABLE                
+
+  #   Simple Commands
+  --- ----------------------------------------------------------
+  0   "ls" 	"test3*" 	
+
+  Output       Input        Error        Background
+  ------------ ------------ ------------ ------------
+  file-list    default      default      NO          
+
+
+myshell>   Yacc: insert command "ls"
+   Yacc: insert argument "-al"
+   Yacc: insert argument "`cat"
+   Yacc: insert argument "file-list`"
+   Yacc: Execute command
+
+
+              COMMAND TABLE                
+
+  #   Simple Commands
+  --- ----------------------------------------------------------
+  0   "ls" 	"-al" 	"`cat" 	"file-list`" 	
+
+  Output       Input        Error        Background
+  ------------ ------------ ------------ ------------
+  default      default      default      NO          
+
+
+myshell>
